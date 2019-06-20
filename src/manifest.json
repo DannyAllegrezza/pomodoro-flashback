@@ -1,0 +1,11 @@
+{
+    "name": "Pomodoro Flashback",
+    "description": "Pomodoro timer with juicy features!",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "history",
+        "tabs"
+    ]
+}
