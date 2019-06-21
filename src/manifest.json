@@ -3,9 +3,20 @@
     "description": "Pomodoro timer with juicy features!",
     "version": "1.0",
     "manifest_version": 2,
+    "options_page": "options.html",
     "permissions": [
         "storage",
         "history",
         "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
     ]
 }
