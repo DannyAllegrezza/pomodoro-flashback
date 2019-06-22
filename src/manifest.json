@@ -22,5 +22,11 @@
     "browser_action": {
         "default_title": "Pomodoro Flashback!",
         "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
     }
 }
